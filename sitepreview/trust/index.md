@@ -1,4 +1,4 @@
-# Home - WHO SMART Trust v1.5.0
+# Home - WHO SMART Trust v1.6.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://smart.who.int/trust/ImplementationGuide/smart.who.int.trust | *Version*:1.5.0 |
-| Active as of 2026-04-27 | *Computable Name*:Trust |
+| *Official URL*:http://smart.who.int/trust/ImplementationGuide/smart.who.int.trust | *Version*:1.6.0 |
+| Draft as of 2026-05-19 | *Computable Name*:Trust |
 
 ### Summary
 
@@ -114,12 +114,12 @@ WHO also hosts weekly calls on authoring and implementing WHO SMART Guidelines w
     "profile" : ["http://smart.who.int/base/StructureDefinition/SGImplementationGuide"]
   },
   "url" : "http://smart.who.int/trust/ImplementationGuide/smart.who.int.trust",
-  "version" : "1.5.0",
+  "version" : "1.6.0",
   "name" : "Trust",
   "title" : "WHO SMART Trust",
-  "status" : "active",
+  "status" : "draft",
   "experimental" : false,
-  "date" : "2026-04-27T07:32:49+00:00",
+  "date" : "2026-05-19T11:45:45+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -631,6 +631,17 @@ WHO also hosts weekly calls on authoring and implementing WHO SMART Guidelines w
         "reference" : "Organization/GDHCNParticipant-ECU-DEV"
       },
       "name" : "GDHCNParticipant-ECU-DEV",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/GDHCNParticipant-ECU-UAT"
+      },
+      "name" : "GDHCNParticipant-ECU-UAT",
       "isExample" : false
     },
     {
@@ -2784,6 +2795,40 @@ WHO also hosts weekly calls on authoring and implementing WHO SMART Guidelines w
         "reference" : "Endpoint/GDHCNParticipantDID-ECU-DEV-SCA"
       },
       "name" : "GDHCNParticipantDID-ECU-DEV-SCA",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Endpoint"
+      }],
+      "reference" : {
+        "reference" : "Endpoint/GDHCNParticipantDID-ECU-UAT-All"
+      },
+      "name" : "GDHCNParticipantDID-ECU-UAT-All",
+      "description" : "Ecuador Trustlist (DID v2) - UAT - All keys\ndid:web:tng-cdn.who.int:v2:trustlist:-:ECU\nresolvable at https://tng-cdn-uat.who.int/v2/trustlist/-/ECU/did.json",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Endpoint"
+      }],
+      "reference" : {
+        "reference" : "Endpoint/GDHCNParticipantDID-ECU-UAT-DSC"
+      },
+      "name" : "GDHCNParticipantDID-ECU-UAT-DSC",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Endpoint"
+      }],
+      "reference" : {
+        "reference" : "Endpoint/GDHCNParticipantDID-ECU-UAT-SCA"
+      },
+      "name" : "GDHCNParticipantDID-ECU-UAT-SCA",
       "isExample" : false
     },
     {
@@ -7229,7 +7274,7 @@ WHO also hosts weekly calls on authoring and implementing WHO SMART Guidelines w
         "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
         "code" : "releaselabel"
       },
-      "value" : "release"
+      "value" : "ci-build"
     },
     {
       "code" : {

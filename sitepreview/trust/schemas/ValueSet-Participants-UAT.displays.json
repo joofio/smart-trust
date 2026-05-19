@@ -62,6 +62,9 @@
     "http://smart.who.int/refmart/CodeSystems/REF_COUNTRY#CZE": {
       "en": "CZE"
     },
+    "http://smart.who.int/refmart/CodeSystems/REF_COUNTRY#ECU": {
+      "en": "ECU"
+    },
     "http://smart.who.int/refmart/CodeSystems/REF_COUNTRY#ESP": {
       "en": "ESP"
     },
@@ -181,6 +184,6 @@
     }
   },
   "fhir:valueSet": "http://smart.who.int/trust/ValueSet/Participants-UAT",
-  "fhir:version": "1.5.0",
-  "fhir:expansionTimestamp": "2026-04-27T07:35:35.487045"
+  "fhir:version": "1.6.0",
+  "fhir:expansionTimestamp": "2026-05-19T11:48:21.155878"
 }

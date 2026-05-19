@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "398ed087-31b9-4dc1-95f3-089c8afc5938-87",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/398ed087-31b9-4dc1-95f3-089c8afc5938-87",
+  "name" : "IntersectionWHORegionalOfficesAndWHORegionalOffices",
+  "title" : "Intersection of WHO Regional Offices And WHO Regional Offices",
+  "status" : "active",
+  "date" : "2026-05-19T11:47:49+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }]
+}

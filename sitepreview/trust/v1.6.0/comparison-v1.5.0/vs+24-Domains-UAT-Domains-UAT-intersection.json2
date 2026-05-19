@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "8ee66443-731f-4841-8424-cb64e7ef9236-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8ee66443-731f-4841-8424-cb64e7ef9236-57",
+  "name" : "IntersectionDomains-UATAndDomains-UAT",
+  "title" : "Intersection of WHO GDHCN Trust Domains - UAT And WHO GDHCN Trust Domains - UAT",
+  "status" : "active",
+  "date" : "2026-05-19T11:43:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }]
+}
